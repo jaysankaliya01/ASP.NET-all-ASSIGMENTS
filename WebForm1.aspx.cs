@@ -28,6 +28,18 @@ namespace assigment_1
                
 
             }
+            if (DropDownList1.SelectedIndex == 1)
+            {
+                Response.Redirect("assigment2.aspx?param=value");
+
+
+
+            }
+        }
+
+        protected void DropDownList1_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -57,12 +57,10 @@
         <p>
             &nbsp;</p>
         <p>
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
-                  <asp:ListItem Value="Assigment 1"></asp:ListItem>
-                  <asp:ListItem Value="Assgiment 2"></asp:ListItem>
-                  <asp:ListItem Value="Assigment 3"></asp:ListItem>
+              <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged1">
+                  <asp:ListItem Value="assigment 1"></asp:ListItem>
+                  <asp:ListItem>assigment 2 </asp:ListItem>
               </asp:DropDownList>
-              </a>
         </p>
         <p>
               <asp:Button ID="Button1" runat="server" Text="Search" OnClick="Button1_Click" />
